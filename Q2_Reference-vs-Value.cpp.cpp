@@ -40,11 +40,11 @@ char* modifyInPlace(char *raw_input) {
             raw_input[q++] = raw_input[i];
         }
     }
-    /*
+    
     for (; q < 80; q++){
         raw_input[q] = '\0';
     }
-    */
+    
     return raw_input;
 }
 
